@@ -155,6 +155,7 @@ body {
     justify-content: space-around;
     align-items: center;
     display: inline-flex;
+    text-align: center;
 
   }
 
