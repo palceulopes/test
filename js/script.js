@@ -1,6 +1,6 @@
 let allHeader = document.getElementById('dinamyc-header');
 let pos = 0;
-let style = window.getComputedStyle(allHeader);
+let style = window.getComputedStyle(allHeader, null);
 let left = parseInt(style.left);
 
 addEventListener("resize", (event) => {
