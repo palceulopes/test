@@ -1,4 +1,4 @@
-let allHeader = document.querySelector('.flex-container-all-header');
+let allHeader = document.getElementById('dinamyc-header');
 let pos = 0;
 let style = getComputedStyle(allHeader);
 let left = parseInt(style.left);
