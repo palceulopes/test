@@ -62,13 +62,12 @@ body {
 
   .header {
     left: 30px;
-    top: 7px;
+    top: 14px;
     position: absolute;
     color: white;
-    font-size: 1vw;
-    font-weight: 500;
+    font-size: 0.5vw;
     text-transform: capitalize;
-    line-height: 12px;
+    line-height: 0.5vh;
     word-wrap: break-word;
 
 
@@ -465,7 +464,7 @@ body {
     align-items: center;
     display: inline-flex;
     color: black;
-    font-size: calc(1vh + 1vw);
+    font-size: calc(vh + 1vw);
     font-weight: 400;
     text-transform: capitalize;
     line-height: 22px;
@@ -481,6 +480,7 @@ body {
     display: inline-flex;
     text-align: center;
     position: fixed;
+    width: 100%;
     z-index: 999999 !important;
     top: 13vh;
     background: white;
@@ -505,7 +505,7 @@ body {
     align-items: flex-start;
     display: inline-flex;
     width: 100%;
-    top: 32vh;
+    top: 15vh;
     position: absolute;
 
   }
@@ -545,7 +545,7 @@ body {
     align-items: center;
     display: inline-flex;
     width: 100%;
-    top: 50vh;
+    top: 35vh;
     padding: 2vh;
     position: absolute;
     background: #FAFAFA;
